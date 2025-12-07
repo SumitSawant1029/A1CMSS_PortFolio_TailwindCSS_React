@@ -1,5 +1,15 @@
 .navbar{
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    
+    background-color: #201F22;
+    height: 8vh;
+
+}
+
+
+.social{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
