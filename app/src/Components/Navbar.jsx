@@ -23,7 +23,7 @@ function Navbar() {
           />
         </div>
 
-        {/* Primary nav buttons */}
+       
         <div className="social nav-links">
           <button type="button" className="btn btn-outline-primary">Home</button>
           <button type="button" className="btn btn-outline-primary">Contact</button>
@@ -31,7 +31,7 @@ function Navbar() {
         </div>
 
         
-        {/* Social icons */}
+        
         <div className="social nav-icons" style={{color:"white"}} aria-label="Social media">
           <a>
             <i className="fa-brands fa-facebook"></i>
@@ -44,7 +44,7 @@ function Navbar() {
           </a>
         </div>
 
-        {/* Hamburger (mobile) */}
+       
         <button
           className="hamburger"
           aria-label="Toggle menu"
@@ -56,7 +56,7 @@ function Navbar() {
         </button>
       </nav>
 
-      {/* Mobile dropdown */}
+     
       <div
         id="mobile-menu"
         className={`mobile-menu ${menuOpen ? 'open' : ''}`}
