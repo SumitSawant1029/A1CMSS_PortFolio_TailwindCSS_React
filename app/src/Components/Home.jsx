@@ -1,7 +1,11 @@
+import banner from '../assets/banner.jpg';
+
 function Home(){
     return(
         <>
-            <img src=""></img>
+            <img style={{width:"100vw"}} src={banner}></img>
         </>
     );
 }
+
+export default Home;
