@@ -28,8 +28,8 @@ function ContactPage() {
                             <a>sales@a1cmss.com</a>
                         </div>
 
-                        <div className="map" style={{ height: '400px', width: '100%' }}>
-                            <MapContainer center={[lat, lng]} zoom={13} style={{ height: '100%', width: '100%' }}>
+                        <div className="map">
+                            <MapContainer center={[lat, lng]} zoom={15} style={{ height: '100%', width: '100%' }}>
                                 <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
                                 <Marker position={[lat, lng]} />
                             </MapContainer>
