@@ -1,4 +1,4 @@
-import './BLock.css';
+import './Block.css';
 import image1 from '../assets/machines/machinedisplay1.jpg';
 import image2 from '../assets/machines/machinedisplay2.jpg';
 import image3 from '../assets/machines/machinedisplay3.png'
