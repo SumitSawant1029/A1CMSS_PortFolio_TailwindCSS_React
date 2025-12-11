@@ -1,0 +1,43 @@
+.features {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 20%;
+
+}
+
+
+@media  screen and (max-width:426px) {
+    .features {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        border: 2px solid black;
+        border-radius: 20px;
+        overflow: hidden;
+        width: 80%;
+        
+    }
+
+
+}
