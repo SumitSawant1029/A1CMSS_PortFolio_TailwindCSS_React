@@ -14,3 +14,32 @@
     justify-content: center;
     align-items: center;
 }
+.leftabout img{
+    width: 50%;
+}
+
+
+@media  screen and (max-width:426px) {
+    .about{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+.leftabout img{
+    width: 100%;
+}
+
+.rightabout{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+}
