@@ -4,6 +4,7 @@ import Home from './Components/Home';
 import ContactPage from './Components/ContactPage';
 import Block from './Components/Block';
 import About from './Components/About';
+import Slider from './Components/Slider';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +13,7 @@ function App() {
     <>
       <Navbar/>
       <Home/>
+      <Slider/>
       <About/>
       <Block/>
       <ContactPage/>

@@ -6,7 +6,7 @@ function About(){
         <>
             <div className='about'>
                 <div className='leftabout'>
-                    <img src={AboutImg} alt="Industrial Cleaning Machine"></img>
+                    <img src={AboutImg}  alt="Industrial Cleaning Machine"></img>
                 </div>
                 <div className='rightabout'>
                     <h1>About Us</h1>

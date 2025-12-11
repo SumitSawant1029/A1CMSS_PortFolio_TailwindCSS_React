@@ -1,0 +1,71 @@
+.slider-container {
+  position: relative;
+  width: 600px; /* fixed size */
+  height: 350px;
+  overflow: hidden;
+  user-select: none;
+  touch-action: none;
+  background: #eee; /* fallback bg */
+}
+
+.slider-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none; /* disable dragging */
+}
+
+.before-img {
+  z-index: 1;
+}
+
+.after-img {
+  z-index: 2;
+  transition: clip-path 0.2s ease-out;
+}
+
+/* Wrapper div for handle - bigger drag target */
+.slider-handle-wrapper {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px; /* bigger area for dragging */
+  height: 40px;
+  cursor: ew-resize;
+  z-index: 3;
+  pointer-events: all; /* enable dragging */
+  user-select: none;
+}
+
+/* Actual handle image */
+.slider-handle-img {
+  height: 150px; /* smaller handle */
+  width: auto;
+  pointer-events: none; /* allow drag events to bubble up to wrapper */
+  user-select: none;
+}
+
+/* Labels */
+.label {
+  position: absolute;
+  top: 10px;
+  padding: 5px 10px;
+  color: white;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  z-index: 4;
+  user-select: none;
+  font-family: Arial, sans-serif;
+}
+
+.before-label {
+  left: 10px;
+}
+
+.after-label {
+  right: 10px;
+}
